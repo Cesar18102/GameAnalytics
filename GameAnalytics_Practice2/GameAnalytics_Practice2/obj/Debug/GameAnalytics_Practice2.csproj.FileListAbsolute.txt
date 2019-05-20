@@ -1,0 +1,6 @@
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics_Practice2\GameAnalytics_Practice2\bin\Debug\GameAnalytics_Practice2.exe.config
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics_Practice2\GameAnalytics_Practice2\obj\Debug\GameAnalytics_Practice2.csprojResolveAssemblyReference.cache
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics_Practice2\GameAnalytics_Practice2\bin\Debug\GameAnalytics_Practice2.exe
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics_Practice2\GameAnalytics_Practice2\bin\Debug\GameAnalytics_Practice2.pdb
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics_Practice2\GameAnalytics_Practice2\obj\Debug\GameAnalytics_Practice2.exe
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics_Practice2\GameAnalytics_Practice2\obj\Debug\GameAnalytics_Practice2.pdb
