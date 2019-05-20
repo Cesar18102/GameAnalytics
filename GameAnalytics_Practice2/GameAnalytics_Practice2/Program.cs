@@ -29,7 +29,7 @@ namespace GameAnalytics_Practice2 {
 
             List<Company> CMPS = DT.Rows.Cast<DataRow>()
                                    .Select(R => new Company(R))
-                                   .OrderBy(CMP => CMP.UserPrice)
+                                   .OrderByDescending(CMP => CMP.Users)
                                    .ToList();
             int[] MaxLs = TopLs;
 
@@ -45,7 +45,7 @@ namespace GameAnalytics_Practice2 {
             Console.WriteLine(new string('=', Top.Length));
 
             foreach (Company CMP in CMPS)
-                Console.WriteLine(Company.TableRow(CMP.GetData(), MaxLs).Replace("-1", "--"));
+                Console.WriteLine(Company.TableRow(CMP.GetData(), MaxLs).Replace("-1", "--").Replace("і", "и"));
 
             C.Close();
             Console.ReadLine();
