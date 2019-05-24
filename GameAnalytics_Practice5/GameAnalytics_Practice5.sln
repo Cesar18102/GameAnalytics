@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameAnalytics_Practice5", "GameAnalytics_Practice5\GameAnalytics_Practice5.csproj", "{9622F1D6-1731-41C0-8AB3-7781E0C9D194}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9622F1D6-1731-41C0-8AB3-7781E0C9D194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9622F1D6-1731-41C0-8AB3-7781E0C9D194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9622F1D6-1731-41C0-8AB3-7781E0C9D194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9622F1D6-1731-41C0-8AB3-7781E0C9D194}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

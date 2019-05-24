@@ -44,8 +44,26 @@ namespace GameAnalytics_Practice2 {
             Console.WriteLine(Top);
             Console.WriteLine(new string('=', Top.Length));
 
-            foreach (Company CMP in CMPS)
+            double AVGUserPrice = (double)CMPS.Sum(CMP => CMP.UserPrice) / CMPS.Count;
+            double AVGUsersCount = (double)CMPS.Sum(CMP => CMP.Users) / CMPS.Count;
+
+            foreach (Company CMP in CMPS) {
+
+                if (CMP.Users >= AVGUsersCount + 10)
+                    Console.ForegroundColor = ConsoleColor.Green;
+                else if (CMP.Users <= AVGUsersCount - 10)
+                    Console.ForegroundColor = ConsoleColor.Red;
+                else
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+
                 Console.WriteLine(Company.TableRow(CMP.GetData(), MaxLs).Replace("-1", "--").Replace("і", "и"));
+            }
+
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.WriteLine();
+            Console.WriteLine("AVG USER PRICE: " + AVGUserPrice + "$");
+            Console.WriteLine("AVG USERS COUNT: " + AVGUsersCount);
 
             C.Close();
             Console.ReadLine();

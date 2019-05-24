@@ -1,0 +1,12 @@
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics_Practice3\GameAnalytics_Practice3\bin\Debug\GameAnalytics_Practice3.exe.config
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics_Practice3\GameAnalytics_Practice3\bin\Debug\GameAnalytics_Practice3.exe
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics_Practice3\GameAnalytics_Practice3\bin\Debug\GameAnalytics_Practice3.pdb
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics_Practice3\GameAnalytics_Practice3\obj\Debug\GameAnalytics_Practice3.csprojResolveAssemblyReference.cache
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics_Practice3\GameAnalytics_Practice3\obj\Debug\GameAnalytics_Practice3.exe
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics_Practice3\GameAnalytics_Practice3\obj\Debug\GameAnalytics_Practice3.pdb
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics\GameAnalytics_Practice3\GameAnalytics_Practice3\bin\Debug\GameAnalytics_Practice3.exe.config
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics\GameAnalytics_Practice3\GameAnalytics_Practice3\obj\Debug\GameAnalytics_Practice3.exe
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics\GameAnalytics_Practice3\GameAnalytics_Practice3\obj\Debug\GameAnalytics_Practice3.pdb
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics\GameAnalytics_Practice3\GameAnalytics_Practice3\bin\Debug\GameAnalytics_Practice3.exe
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics\GameAnalytics_Practice3\GameAnalytics_Practice3\bin\Debug\GameAnalytics_Practice3.pdb
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics\GameAnalytics_Practice3\GameAnalytics_Practice3\obj\Debug\GameAnalytics_Practice3.csprojResolveAssemblyReference.cache

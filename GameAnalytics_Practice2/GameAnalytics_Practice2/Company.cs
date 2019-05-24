@@ -47,6 +47,18 @@ namespace GameAnalytics_Practice2 {
             UserPrice = Math.Round(price / Users, 2);
         }
 
+        public Company(string name, string type, double price, int count,
+                       string unit, double CR, double CTR) {
+
+            this.name = name;
+            this.type = type;
+            this.price = price;
+            this.count = count;
+            this.unit = unit;
+            this.CR = CR;
+            this.CTR = CTR;
+        }
+
         public int[] GetLs() {
 
             return Company.GetDataLs(GetData());
