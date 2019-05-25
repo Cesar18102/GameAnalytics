@@ -4,3 +4,9 @@ C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics_Practice5\
 C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics_Practice5\GameAnalytics_Practice5\obj\Debug\GameAnalytics_Practice5.csprojResolveAssemblyReference.cache
 C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics_Practice5\GameAnalytics_Practice5\obj\Debug\GameAnalytics_Practice5.exe
 C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics_Practice5\GameAnalytics_Practice5\obj\Debug\GameAnalytics_Practice5.pdb
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics\GameAnalytics_Practice5\GameAnalytics_Practice5\bin\Debug\GameAnalytics_Practice5.exe.config
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics\GameAnalytics_Practice5\GameAnalytics_Practice5\obj\Debug\GameAnalytics_Practice5.exe
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics\GameAnalytics_Practice5\GameAnalytics_Practice5\obj\Debug\GameAnalytics_Practice5.pdb
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics\GameAnalytics_Practice5\GameAnalytics_Practice5\bin\Debug\GameAnalytics_Practice5.exe
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics\GameAnalytics_Practice5\GameAnalytics_Practice5\bin\Debug\GameAnalytics_Practice5.pdb
+C:\Users\Олег\Documents\Visual Studio 2012\Projects\GameAnalytics\GameAnalytics_Practice5\GameAnalytics_Practice5\obj\Debug\GameAnalytics_Practice5.csprojResolveAssemblyReference.cache

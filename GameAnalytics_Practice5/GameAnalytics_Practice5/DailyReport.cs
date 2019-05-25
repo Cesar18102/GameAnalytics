@@ -21,6 +21,12 @@ namespace GameAnalytics_Practice5 {
         public double AvgSessionTime { get; private set; }
         public double AvgSessionCount { get; private set; }
 
+        public double Revenue { get; private set; }
+        public double ARPU { get; private set; }
+        public double ARPPU { get; private set; }
+        public double Involvement { get; private set; }
+        public double ConversionRate { get; private set; }
+
         public DailyReport(DataRow DR) {
 
             Date = Convert.ToDateTime(DR["date"]);
@@ -37,6 +43,12 @@ namespace GameAnalytics_Practice5 {
 
             AvgSessionTime = Convert.ToDouble(DR["avg_session_time"]);
             AvgSessionCount = Convert.ToDouble(DR["avg_session_count"]);
+
+            Revenue = SellsProfit + AdvsProfit;
+            ARPU = Math.Round(Revenue / DAU, 2);
+            ARPPU = Math.Round(Revenue / PAU, 2);
+            Involvement = Math.Round((double)DAU / MAU, 2);
+            ConversionRate = Math.Round((double)PAU / DAU, 2);
         }
 
         public int[] GetLs() {
@@ -46,9 +58,10 @@ namespace GameAnalytics_Practice5 {
 
         public string[] GetData() {
 
-            return new string[] { Date.ToShortDateString(), SellsProfit.ToString(), AdvsProfit.ToString(),
+            return new string[] { Date.ToShortDateString(), SellsProfit.ToString() + "$", AdvsProfit.ToString() + "$",
                                   DAU.ToString(), MAU.ToString(), LAU.ToString(), NewUsers.ToString(), PAU.ToString(),
-                                  NetworkPostsCount.ToString(), AvgSessionTime.ToString(), AvgSessionCount.ToString() };
+                                  NetworkPostsCount.ToString(), AvgSessionTime.ToString(), AvgSessionCount.ToString(),
+                                  ARPU.ToString(), ARPPU.ToString(), Involvement.ToString() + "%", ConversionRate.ToString() + "%" };
         }
 
         public static string TableRow(string[] Data, int[] MaxLs) {
@@ -62,8 +75,8 @@ namespace GameAnalytics_Practice5 {
 
         public static string[] TopData() {
 
-            return new string[] { "DATE", "SELLS PROFIT", "ADVS PROFIT", "DAU", "MAU", "LAU", "NEW USERS", "PAU", 
-                                  "NETWORK POSTS", "AVG SEESION TIME", "AVG SESSION COUNT" };
+            return new string[] { "DT", "SELL PRFT", "ADV PRFT", "DAU", "MAU", "LAU", "NEW USR", "PAU", "POSTS", 
+                                  "AVG SESS TM", "AVG SESS CNT", "ARPU", "ARPPU", "INV-MENT", "CNVRS RATE" };
         }
 
         public static int[] GetDataLs(string[] Data) {
